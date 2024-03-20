@@ -1,5 +1,5 @@
 <?php
-namespace Haruncpi\LaravelSimpleFilemanager\Classes;
+namespace Lamoud\LaravelSimpleFilemanager\Classes;
 
 class SimpleImage {
     const

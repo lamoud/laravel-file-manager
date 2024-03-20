@@ -1,4 +1,4 @@
-<?php namespace Haruncpi\LaravelSimpleFilemanager\Model;
+<?php namespace Lamoud\LaravelSimpleFilemanager\Model;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;

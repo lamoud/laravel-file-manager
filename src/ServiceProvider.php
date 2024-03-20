@@ -1,8 +1,8 @@
 <?php
 
-namespace Haruncpi\LaravelSimpleFilemanager;
+namespace Lamoud\LaravelSimpleFilemanager;
 
-use Haruncpi\LaravelSimpleFilemanager\Console\FilemanagerInstall;
+use Lamoud\LaravelSimpleFilemanager\Console\FilemanagerInstall;
 use Illuminate\Support\Facades\Blade;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider

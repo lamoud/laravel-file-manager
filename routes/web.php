@@ -1,7 +1,7 @@
 <?php
 
 Route::group([
-    'namespace'  => '\Haruncpi\LaravelSimpleFilemanager\Controllers',
+    'namespace'  => '\Lamoud\LaravelSimpleFilemanager\Controllers',
     'middleware' => config('filemanager.middleware')
 ], function () {
     Route::get(config('filemanager.base_route'), 'FilemanagerController@getIndex')

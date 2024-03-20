@@ -1,9 +1,9 @@
-<?php namespace Haruncpi\LaravelSimpleFilemanager\Controllers;
+<?php namespace Lamoud\LaravelSimpleFilemanager\Controllers;
 
 use App\Http\Controllers\Controller;
 
-use Haruncpi\LaravelSimpleFilemanager\Classes\SimpleImage;
-use Haruncpi\LaravelSimpleFilemanager\Model\Filemanager;
+use Lamoud\LaravelSimpleFilemanager\Classes\SimpleImage;
+use Lamoud\LaravelSimpleFilemanager\Model\Filemanager;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;

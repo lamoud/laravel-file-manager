@@ -1,5 +1,5 @@
 {
-  "name": "haruncpi/laravel-simple-filemanager",
+  "name": "lamoud/laravel-filemanager",
   "description": "A simple filemanager for Laravel",
   "license": "cc-by-nc-4.0",
   "keywords": [
@@ -26,7 +26,7 @@
       "src/helpers.php"
     ],
     "psr-4": {
-      "Haruncpi\\LaravelSimpleFilemanager\\": "src"
+      "Lamoud\\LaravelSimpleFilemanager\\": "src"
     }
   },
   "scripts": {
@@ -35,7 +35,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Haruncpi\\LaravelSimpleFilemanager\\ServiceProvider"
+        "Lamoud\\LaravelSimpleFilemanager\\ServiceProvider"
       ]
     }
   },

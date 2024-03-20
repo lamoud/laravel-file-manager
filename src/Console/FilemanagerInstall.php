@@ -1,6 +1,6 @@
 <?php
 
-namespace Haruncpi\LaravelSimpleFilemanager\Console;
+namespace Lamoud\LaravelSimpleFilemanager\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
@@ -87,7 +87,7 @@ class FilemanagerInstall extends Command
     private function publishConfig()
     {
         $this->call('vendor:publish', [
-            '--provider' => "Haruncpi\LaravelSimpleFilemanager\ServiceProvider",
+            '--provider' => "Lamoud\LaravelSimpleFilemanager\ServiceProvider",
             '--tag'      => 'config',
             '--force'    => true
         ]);
@@ -96,7 +96,7 @@ class FilemanagerInstall extends Command
     private function publishMigration()
     {
         $this->call('vendor:publish', [
-            '--provider' => "Haruncpi\LaravelSimpleFilemanager\ServiceProvider",
+            '--provider' => "Lamoud\LaravelSimpleFilemanager\ServiceProvider",
             '--tag'      => 'migrations',
             '--force'    => true
         ]);
@@ -105,7 +105,7 @@ class FilemanagerInstall extends Command
     private function publishAssets()
     {
         $this->call('vendor:publish', [
-            '--provider' => "Haruncpi\LaravelSimpleFilemanager\ServiceProvider",
+            '--provider' => "Lamoud\LaravelSimpleFilemanager\ServiceProvider",
             '--tag'      => 'assets',
             '--force'    => true
         ]);

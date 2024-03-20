@@ -1,7 +1,7 @@
 <h1 align="center">Laravel Simple Filemanager</h1>
 <p align="center">
-    <a href="https://packagist.org/packages/haruncpi/laravel-simple-filemanager"><img src="https://badgen.net/packagist/v/haruncpi/laravel-simple-filemanager" /></a>
-     <a href=""><img src="https://badgen.net/packagist/dt/haruncpi/laravel-simple-filemanager"/></a>
+    <a href="https://packagist.org/packages/lamoud/laravel-filemanager"><img src="https://badgen.net/packagist/v/lamoud/laravel-filemanager" /></a>
+     <a href=""><img src="https://badgen.net/packagist/dt/lamoud/laravel-filemanager"/></a>
     <a href="https://twitter.com/laravelarticle"><img src="https://badgen.net/badge/twitter/@laravelarticle/1DA1F2?icon&label" /></a>
     <a href="https://facebook.com/laravelarticle"><img src="https://badgen.net/badge/facebook/laravelarticle/3b5998"/></a>
 </p>
