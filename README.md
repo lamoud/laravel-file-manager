@@ -9,6 +9,16 @@
 
 ![Image description](previews/preview-desktop.png)
 
+## Installation
+
+```bash
+composer require lamoud/laravel-filemanager
+```
+
+```bash
+php artisan filemanager:install
+```
+
 ## Features
 - Multi-Language support (English, বাংলা, हिन्दी, العربية, German, Indonesian, 日本語).
 - Popular Editor Support: TinyMCE 4, TinyMCE 5, CKEditor, Summernote
